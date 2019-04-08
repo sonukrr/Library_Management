@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+table, th, td {
+   border: 1px solid black;
+}
+input[type=text] {
+    width: 70%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+input[type=password] {
+      width: 70%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+fieldset{
+background-color:#999999;
+display:block;
+margin-left:30%;
+margin-right:30%;
+padding-top:35%
+padding-bottom:0.625em
+padding-left:4 em
+padding-right:4 em
+border:20px groove(internal value);
+}
